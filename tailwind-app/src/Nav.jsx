@@ -32,4 +32,9 @@ function Nav (){
 
     );
 }
+
+// Aquí usamos map para recorrer el arreglo de objetos `links`
+// y generar un <li> con un <a> por cada uno. Esto permite
+// renderizar los elementos del menú dinámicamente en lugar
+// de escribirlos uno por uno.
 export default Nav;
